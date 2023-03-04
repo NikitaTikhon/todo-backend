@@ -11,6 +11,5 @@ import java.util.Date;
 public class MessageResponse {
     private Long id;
     private String content;
-    @JsonFormat(pattern = "HH:mm dd.MM.yyyy")
     private Date dateCreation;
 }
