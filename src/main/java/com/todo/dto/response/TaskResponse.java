@@ -14,6 +14,5 @@ public class TaskResponse {
     private Long id;
     private String title;
     private String content;
-    @JsonFormat(pattern = "HH:mm dd.MM.yyyy")
     private Date dateCreation;
 }
